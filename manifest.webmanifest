@@ -1,0 +1,22 @@
+{
+  "id": "./index.html",
+  "name": "ET — Arquivo de Casos",
+  "short_name": "Arquivo ET",
+  "description": "Dossiês de relatos ufológicos, encontros e investigações históricas.",
+  "lang": "pt-BR",
+  "start_url": "./index.html#inicio",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#090c10",
+  "theme_color": "#090c10",
+  "categories": ["education", "books", "entertainment"],
+  "icons": [
+    {
+      "src": "assets/app-icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

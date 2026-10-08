@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="theme-color" content="#090c10" />
+  <meta name="description" content="Dossiês de abduções alegadas, avistamentos, desaparecimentos e investigações históricas." />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <meta name="apple-mobile-web-app-title" content="Arquivo ET" />
+  <link rel="manifest" href="manifest.webmanifest" />
+  <link rel="icon" type="image/svg+xml" href="assets/app-icon.svg" />
+  <link rel="apple-touch-icon" href="assets/app-icon.svg" />
+  <title>ET — Arquivo de Casos</title>
+  <link rel="stylesheet" href="cases.css" />
+</head>
+<body>
+  <div class="noise"></div>
+  <header class="topbar">
+    <a class="brand" href="#inicio"><span class="brand-mark">ＥＴ</span><span>ARQUIVO <small>DE CASOS</small></span></a>
+    <div class="top-actions"><span class="top-note"><i></i> REGISTROS NÃO EXPLICADOS</span><button id="installApp" class="install-button" type="button">ADICIONAR AO CELULAR</button></div>
+  </header>
+  <div id="installHelp" class="install-help" role="status" hidden></div>
+  <main>
+    <section id="home" class="home-view">
+      <div class="hero">
+        <div class="hero-copy"><p class="eyebrow">ARQUIVO ET · 50 DOSSIÊS</p><h1>O inexplicável<br />deixa <em>rastros.</em></h1><p class="hero-text">Abduções, luzes no céu, desaparecimentos e encontros que viraram história. Conheça os relatos, veja o que foi investigado e decida o que as evidências permitem concluir.</p><div class="hero-caution"><span>!</span><p>Relatos históricos não comprovam visita extraterrestre.</p></div><a class="hero-cta" href="#caseList">EXPLORAR OS DOSSIÊS <span>↓</span></a></div>
+        <div class="hero-art"><img src="assets/capa-espacial.png" alt="Arte de ficção científica: explorador diante de naves e de um planeta em chamas"/></div>
+        <div class="hero-index">50<br/><span>CASOS<br/>EM ARQUIVO</span></div>
+      </div>
+      <div class="list-heading"><div><p class="eyebrow">ARQUIVO PRINCIPAL</p><h2>Casos que desafiam explicações</h2></div><span id="caseCount" class="count"></span></div>
+      <div class="toolbar"><label class="search"><span>⌕</span><input id="searchInput" type="search" placeholder="Buscar caso ou lugar" /></label><div class="filters"><button class="filter active" data-filter="todos">Todos</button><button class="filter" data-filter="eua">Estados Unidos</button><button class="filter" data-filter="brasil">Brasil</button><button class="filter" data-filter="outros">Outros países</button></div></div>
+      <section id="caseList" class="case-grid" aria-label="Lista de casos"></section>
+      <footer><span>ET · ARQUIVO DE CASOS</span><span>Por: Hernan Zubieta Opazo</span><span>Relatos, não provas.</span></footer>
+    </section>
+    <section id="detail" class="detail-view" hidden></section>
+  </main>
+  <script src="cases.js"></script>
+  <script src="pwa.js"></script>
+</body>
+</html>
+
+
+

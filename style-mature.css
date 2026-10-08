@@ -1,0 +1,16 @@
+/* Direção visual adulta: fotografia editorial e acabamento mais elegante. */
+.phone-shell{background:radial-gradient(ellipse at 50% 0%,#251b2a 0,#100d18 47%,#0a0910 100%)}
+.brand-mark,.orbit{color:#d5a77b}.brand-dot{color:#cf7c8c}
+.heading-row h1,.subhead h1,.name-line h2,.chat-header strong{font-family:'DM Sans',sans-serif;letter-spacing:-1px}
+.heading-row h1{font-size:36px;font-weight:500}.eyebrow{color:#c6a98e;letter-spacing:1.8px}
+.filter-row{border-radius:8px;background:#ffffff05}.profile-card{border-radius:17px;background:#201923}.profile-art{background:#211a20!important;overflow:hidden}
+.profile-photo{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center 35%;filter:saturate(.88) contrast(1.03)}
+.art-label{background:#160f16a6;border-color:#ffffff25;border-radius:5px;letter-spacing:1px;font-size:9px;backdrop-filter:blur(12px)}
+.card-shade{inset:25% 0 0;background:linear-gradient(180deg,transparent 5%,#100c12aa 46%,#100c12f7 100%)}
+.card-info{left:19px;right:19px;bottom:17px}.name-line h2{font-size:27px;font-weight:600}.planet-tag{color:#d6b79d}.tag{border-radius:5px;background:#ffffff0d;border-color:#ffffff27}.online{color:#b8d1b9}.online:before{background:#a2c8a5}
+.action{background:#211a23;border:1px solid #ffffff12}.like{background:linear-gradient(135deg,#c77b80,#a8586b);border:0}.pass{color:#d38b91}.rewind{color:#d6b38f}.bottom-nav{background:#120f17f5}.nav-item.selected span{color:#d5a77b}
+.mini-avatar{background-size:cover;background-position:center 28%;font-size:0;color:transparent}.chat-header .mini-avatar{background-size:cover;background-position:center 28%}.match-avatar{width:88px;height:88px;margin:10px auto;border-radius:50%;background-size:cover;background-position:center 27%;box-shadow:0 0 0 3px #ffffff20,0 0 35px #c77b8040}
+.modal-card{background:radial-gradient(ellipse at 50% 0,#37252a,#1a151d 65%);border-color:#ffffff20}.primary{background:linear-gradient(110deg,#b87879,#94566e)}.secondary{color:#c6b7b2}
+.chat-row{background:#19151d;border-radius:10px}.chat-world{background:linear-gradient(110deg,#2a2028,#211922);border-radius:8px}
+.quick-prompts{display:flex;gap:7px;overflow-x:auto;padding:0 0 10px;scrollbar-width:none}.quick-prompts::-webkit-scrollbar{display:none}.quick-prompt{flex:none;border:1px solid #ffffff20;border-radius:20px;background:#ffffff08;color:#dbc6b3;padding:7px 10px;font:10px 'DM Sans';cursor:pointer}.quick-prompt:active{background:#ffffff18}
+.free-mode-note{display:block;color:#a99c9c;font-size:9px;margin-top:5px;letter-spacing:.2px}
